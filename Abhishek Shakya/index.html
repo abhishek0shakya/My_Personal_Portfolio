@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Portfolio Website</title>
+
+    <!-- Favicon add kya hay -->
+    <link rel="Shortcut Icon" type="img/png" href="img/favicon.png" />
+
+    <!-- using box-icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- header design -->
+    <header class="header">
+      <a href="#" class="logo">Portfo<span>lio</span></a>
+
+      <!-- nevbar design -->
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <!-- lightMode icon -->
+      <div class="bx bx-moon" id="lightMode-icon"></div>
+
+      <!-- menu-icon -->
+      <i class="bx bx-menu" id="menu-icon"></i>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Abhishek Shakya</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>
+          Web Developer 💻 | Coder ⚙️ | Designer 🎨 Enthusiastic about Building
+          Innovative and User-Friendly Websites.
+        </p>
+
+        <!-- use social-media icons -->
+        <div class="social-media">
+          <a
+            href="https://www.linkedin.com/in/abhishek-shakya-developer"
+            target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/Abhishek2003Shakya" target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://www.instagram.com/shorts_writer" target="_blank"
+            ><i class="bx bxl-instagram-alt"></i
+          ></a>
+          <a href="https://wa.me/+918595163187" target="_blank"
+            ><i class="bx bxl-whatsapp"></i
+          ></a>
+        </div>
+        <!-- Downlode CV button -->
+        <a href="#" class="btn">Download CV</a>
+      </div>
+
+      <!-- home image -->
+      <div class="home-img">
+        <img src="img/home.png" alt="" />
+      </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="img/about.jpg" alt="" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Frontend Developer !</h3>
+        <p>
+          Hello 🖐, I'm Abhishek Shakya. As a passionate web developer, I
+          specialize in creating immersive and user-centric web experiences. I
+          am a fresher in full-stack developer. I am skilled in leveraging
+          modern tools like Git and GitHub for version control and efficient
+          collaboration.
+        </p>
+        <div class="skills">
+          <div class="skill">
+            <h3>HTML | CSS | REACT</h3>
+            <div class="skill-bar"><span>90%</span></div>
+          </div>
+          <div class="skill">
+            <h3>JAVASCRIPT</h3>
+            <div class="skill-bar skill-bar-2"><span>70%</span></div>
+          </div>
+          <div class="skill">
+            <h3>C | C++</h3>
+            <div class="skill-bar skill-bar-3"><span>80%</span></div>
+          </div>
+        </div>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <!-- service section design -->
+    <section class="services" id="services">
+      <h2 class="heading">Our <span>Services</span></h2>
+
+      <div class="services-container">
+        <div class="sercices-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Development</h3>
+          <p>
+            Here, you will learn the fundamentals of web development, including
+            HTML, CSS, and JavaScript.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="sercices-box">
+          <i class="bx bxs-paint"></i>
+          <h3>Graphic Design</h3>
+          <p>
+            Here, you will learn how to create awesome designs and user-friendly
+            UI using popular software like Figma and Canva.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Project</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="img/bts.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>BTS Fan Page</h4>
+            <p>
+              Awesome project for enach your web development skills with some
+              creative ideas (fully responsive design).
+            </p>
+            <a href="https://bts-landing-page.netlify.app" target="_blank">
+              <i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="img/translator.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Translator</h4>
+            <p>
+              I think this is one of the best project for better understanding
+              of javascript and API.
+            </p>
+            <a href="https://translator-maya.netlify.app" target="_blank">
+              <i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="img/icalc.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Calculator</h4>
+            <p>
+              Creating a basic calculator using HTML, CSS, and JavaScript with
+              an appealing user interface (UI) can enhance your comprehension of
+              CSS design principles.
+            </p>
+            <a href="https://i-calc.netlify.app" target="_blank">
+              <i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="img/text-to-speech.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Text to Speech</h4>
+            <p>
+              In this project, I will demonstrate how to easily convert text to
+              speech using JavaScript with just a few lines of code. This is
+              beginner-friendly.
+            </p>
+            <a
+              href="https://text-convert-to-speech.netlify.app"
+              target="_blank"
+            >
+              <i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="img/clock.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Clock</h4>
+            <p>
+              In this project, I will demonstrate how to create an analog clock
+              using HTML, CSS, and JavaScript.
+            </p>
+            <a href="https://digital-iclock.netlify.app" target="_blank">
+              <i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="img/snake_game.png" alt="" />
+          <div class="portfolio-layer">
+            <h4>Snake Game</h4>
+            <p>
+              In this project, I have developed a web-based Snake game using
+              pure JavaScript.
+            </p>
+            <a href="https://web-snake-game.netlify.app" target="_blank">
+              <i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+
+      <form action="https://formspree.io/f/mrgwpard" method="POST">
+        <div class="input-box">
+          <input
+            type="text"
+            id="#name"
+            name="name"
+            placeholder="Full Name"
+            autocomplete="off"
+            required
+          />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email Addess"
+            autocomplete="off"
+            required
+          />
+        </div>
+
+        <div class="input-box">
+          <input
+            type="number"
+            id="#number"
+            name="number"
+            placeholder="Mobile Number"
+            autocomplete="off"
+          />
+          <input
+            type="text"
+            id="#subject"
+            name="Subject"
+            placeholder="Subject"
+            autocomplete="off"
+            required
+          />
+        </div>
+        <textarea
+          id="#message"
+          name="message"
+          cols="30"
+          rows="10"
+          placeholder="Your Message ....."
+          autocomplete="off"
+          required
+        ></textarea>
+
+        <input type="submit" class="btn" value="Send Message" />
+      </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>
+          Copyright &copy; 2023 by <b>Abhishek Shakya</b> | All Rights Reserved.
+        </p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <!-- scroll reveal website use kya ha -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js ka use kya ha -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+    <script src="main.js"></script>
+  </body>
+</html>
